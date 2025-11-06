@@ -1,12 +1,12 @@
 #include "input.h"
-#include "headers.h"
 #include <X11/Xlib.h>
 #include <X11/keysym.h>
 #include <string>
 
 using namespace std;
 
-OPEN_DISPLAY
+Display* display = XOpenDisplay(nullptr);
+if (!display) { return; }
 
 bool check_Xkey(const string& key, KeySym keysym)
 {
