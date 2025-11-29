@@ -1,5 +1,4 @@
 # About 
-(Conceived and initially implemented by Unget343)
 The game engine is designed for game development, with its own UxFrame framework, allowing you to easily create 2D and 3D games using OpenGL. It is crossplatform because it uses Qt components, but there are libraries that use Xlib to implement functionality. 
 
 # Build
