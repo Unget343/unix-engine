@@ -19,5 +19,7 @@
 #ifndef WINDOW_H
 #define WINDOW_H
 
+#include "values.h"
+
 class Windows;
 #endif // WINDOW_H
