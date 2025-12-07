@@ -21,7 +21,7 @@ HEADERS += \
     Ui/dialogproject.h \
     Ui/mainwindow.h \
     X11/input.h \
-    X11/mcursor.h \
+    X11/mcursor.h 
 
 FORMS += \
     Ui/mainwindow.ui
