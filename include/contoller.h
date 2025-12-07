@@ -23,7 +23,6 @@ using namespace std;
 
 #endif // _WIN32
 
-typedef signed int Wid;
 typedef long int  WSize;
 typedef signed char WTitle;
 
