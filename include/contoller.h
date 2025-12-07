@@ -12,15 +12,7 @@ using namespace std;
 #       define BASE_GRAPHIC "qartz"
 #elif defined(__linux__)
 #       define UXFRAME_OS_BASE
-        const char graphics = getenv("GRAPH_MODE");
-        if (graphics != nullptr && strcmp(graphics, "xcb") == 0)
-        {
-#           define BASE_GRAPHIC "xcb"
-        } else if (graphics != nullptr && strcmp(graphics, "wayland") == 0)
-        {
-#           define BASE_GRAPHIC "wayland"
-        }
-
+#       define BASE_GRAPHIC xcb
 #endif // _WIN32
 
 typedef long int  WSize;
