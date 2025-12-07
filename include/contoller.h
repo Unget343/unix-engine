@@ -32,9 +32,6 @@ typedef signed char WTitle;
 #elif defined(BASE_GRAPHIC) == "wayland"
 #       include <wayland-client.h>
 #       include <wayland-server.h>
-#       include <wayland-protocols.h>
 #elif defined(BASE_GRAPHIC) == "qartz"
-#       ifndef __OBJC__ // Enable Objective-C
-#               include <CoreGraphics/CoreGraphics.h>
-#       endif // __OBJC__
+#       include <CoreGraphics/CoreGraphics.h>
 #endif // BASE_GRAPHIC
